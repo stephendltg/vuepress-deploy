@@ -1,16 +1,20 @@
 module.exports = {
-    title: "VuePress Deploy",
+    plugins: [
+        '@vuepress/google-analytics',
+        { ga: 'UA-12345678-9' }
+    ],
+    title: "ESA",
     locales: {
         '/': {
-            lang: 'de-DE',
-            title: 'VuePress Deploy',
-            description: 'Vuepress with Netlify Deploy Button'
+            lang: 'fr-FR',
+            title: 'ESA',
+            description: 'Entretien des systèmes aéroloqiue'
         }
     },
     head: [
         ['link', { rel: 'icon', href: `/logo.png` }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
-        ['link', { rel: 'canonical', href: 'https://vuepress-deploy.netlify.com' }],
+        ['link', { rel: 'canonical', href: 'https://esa-grandouest.netlify.com' }],
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -19,11 +23,20 @@ module.exports = {
         ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
         ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
     ],
-    serviceWorker: true,
+    plugins: ['@vuepress/pwa', {
+        serviceWorker: true,
+        updatePopup: true
+    }],
+    plugins: {
+        'sitemap': {
+          hostname: 'http://esa-grandouest.netlify.com'
+        },
+    },
     themeConfig: {
         docsDir: 'docs',
-        repo: 'capriosa/vuepress-deploy',
-
+        repo: 'stephendltg/vuepress-deploy',
+        logo: '/logo.png',
+        smoothScroll: true,
         nav: [{
                 text: 'Start',
                 link: '/docs/',
@@ -36,8 +49,6 @@ module.exports = {
                 text: 'NetlifyCMS Config Help',
                 link: '/docs/netlifycms-configuration.html',
             }
-
         ]
-
     }
 }

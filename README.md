@@ -1,7 +1,20 @@
 ---
 home: true
+navbar: false
+sidebar: false
+meta:
+  - name: "og:description"
+    content: Opengraph description
+  - name: description
+    content: Replace default description in config.js
+sitemap:
+  exclude: false
+  changefreq: hourly
+heroImage: /hero.png
+heroText: ESA
+tagline: Entretien des Systèmes Aérolique
 pageClass: front
-actionText: Hello VuePress →
+actionText: Nos Services →
 actionLink: /docs/
 features:
 - title: One-click Deploy
@@ -10,6 +23,7 @@ features:
   details: You need a Github and a Netlify account. Otherwise the Deploy Button doesn't work.
 - title: Netlify
   details: The “Deploy to Netlify” button helps users deploy new sites from templates with one single click on Netlify.
+footer: ESA Grand Ouest | Copyright © 2019-present Him and Her
 
 ---
 
@@ -36,3 +50,6 @@ npm run build or npm run dev to start a local server
 ```
 
 For more information, see [VuePress Docs](https://vuepress.vuejs.org)
+
+
+<img :src="$withBase('/logo.png')" alt="foo">
