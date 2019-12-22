@@ -51,5 +51,9 @@ npm run build or npm run dev to start a local server
 
 For more information, see [VuePress Docs](https://vuepress.vuejs.org)
 
+{{$page.title}}
 
+<div class="highlighted">
+    <TextMagic/>
+</div>
 <img :src="$withBase('/logo.png')" alt="foo">
