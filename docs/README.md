@@ -1,221 +1,118 @@
 ---
 sidebar: auto
-title: Markdown examples
+title: Nos préstations
+meta:
+  - name: "og:description"
+    content: Opengraph description
+  - name: description
+    content: Replace default description in config.js
+footer: ESA Grand Ouest | Copyright © 2019-present Him and Her
 ---
-# Markdown examples
-Edit on 30.04.2018 with NetlifyCMS
 
-# h1 HmHm 8-)
+# Nos préstations
 
-## h2 Heading
-
-### h3 Heading
-
-#### h4 Heading
-
-##### h5 Heading
-
-###### h6 Heading
-
-```
-# h1 HmHm 8-)
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-```
-
-## Horizontal Rules
-
-- - -
-
-```
-- - -
-```
-
-## Typographic replacement
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-```
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-```
-## Emphasis
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
-```
-**This is bold text**
-
-__This is bold text__
-
-_This is italic text_
-
-*This is italic text*
-
-~~Strikethrough~~
-```
-
-## Blockquotes
-
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other...
-> >
-> > > ...or with spaces between arrows.
-```
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other...
-> >
-> > > ...or with spaces between arrows.
-```
-
-## Lists
-
-Unordered
-
-* Create a list by starting a line with `+`, `-`, or `*`
-* Sub-lists are made by indenting 2 spaces:
-  * Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    * Nulla volutpat aliquam velit
-* Very easy!
-```
-* Create a list by starting a line with `+`, `-`, or `*`
-* Sub-lists are made by indenting 2 spaces:
-  * Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    * Nulla volutpat aliquam velit
-* Very easy!
-```
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-58. bar
-```
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-58. bar
-```
-
-## Code
-
-Syntax highlighting
-
-```js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-Right aligned columns
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-```
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-Right aligned columns
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-```
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-```
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-```
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text](https://octodex.github.com/images/dojocat.jpg title)
-
-With a reference later in the document defining the URL location:
-
-```
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text](https://octodex.github.com/images/dojocat.jpg title)
-```
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-```
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-```
-
-::: warning
-_here be dragons_
-:::
-```
-::: warning
-_here be dragons_
-:::
-```
+## Restauration hôtellerie
+- Mise en propreté des systèmes d’extraction de buées grasses en cuisines (nettoyage des hottes, filtres, conduits et motorisations)
+- Fourniture,pose de moteurs et filtres d’extraction pour hotte de cuisine
+ 
+- Mise en propreté et désinfection des évaporateurs situés en chambres froides
+ 
+- Mise en propreté désinfection des réseaux d’air (écoulement de l'air)
+*VMC
+* Simple flux
+* Double Flux
+* CTA (Centrale de traitement d’air )
+- Fourniture et pose de filtres en fonctions de vos installations
+Collectivité / Tertiaire / Enseignement
+- Mise en propreté des systèmes d’extraction de buées grasses en cuisines (nettoyage des hottes, filtres, conduits et motorisations)
+- Fourniture, pose de moteur et filtres d’extraction pour hotte de cuisine
+ 
+- Mise en propreté et désinfection des évaporateurs situés en chambres froides
+ 
+- Mise en propreté désinfection des réseaux d’air
+* VMC
+* Simple flux
+* Double Flux
+* CTA (Centrale de traitement d’air )
+* Climatisation
+- Fourniture et pose de filtre répondant aux normes EN 779 ( G2, G3, G4, M5, M6, F7, F8, F9…)
+- Contrôle des débits d’air des systèmes de ventilation
+- Contrôles du taux d’empoussièrement en gaines (rapport photos)
+- Mise en propreté partielle et/ou complète des réseaux de aérauliques (extraction / reprise /soufflage)
+- Désinfection des conduits aérauliques (extraction / reprise /soufflage)
+- Mise en propreté désinfection des aérothermes
+- Mise en propreté et désinfection des gaines textiles.
+ 
+## Grande distribution
+- Mise en propreté des systèmes d’extraction de buées grasses (nettoyage des hottes, filtres, conduits et motorisations)
+• Hottes Poissonnerie
+• Hottes rôtisserie
+• Hottes Boulangerie
+• Hottes traiteur
+•  …
+- Fourniture et pose de moteurs et filtres d’extraction pour hottes de cuisine
+ 
+- Mise en propreté des conduits d’extractions fours en boulangerie
+ 
+- Mise en propreté et désinfection des évaporateurs situés en chambres froides
+ 
+- Mise en propreté désinfection des réseaux aérauliques (écoulement de l'air)
+* VMC
+* Simple flux
+* Double Flux
+* CTA (Centrale de traitement d’air )
+* Climatisation
+- Fourniture et pose de filtre répondant aux normes EN 779 ( G2, G3, G4, M5, M6, F7, F8, F9…)
+- Contrôle des débits d’air des systèmes de ventilation
+- Contrôles du taux d’empoussièrement en gaines (rapport photos)
+- Mise en propreté partielle et/ou complète des réseaux de aérauliques (extraction / reprise /soufflage)
+- Désinfection des conduits aérauliques (extraction / reprise /soufflage)
+- Mise en propreté désinfection des aérothermes
+- Mise en propreté désinfection des gaines textiles.
+ 
+## Milieux hospitaliers/ laboratoire
+Les prestations en milieux hospitaliers, pourront être effectués avec un purificateur d’air afin de limiter les particules dans l’air pendant la réalisation des prestations.
+- Mise en propreté désinfection de vos réseaux d’air
+* VMC
+* Simple flux
+* Double Flux
+* CTA (Centrale de traitement d’air )
+* réseaux de Climatisation
+- Fourniture et pose de filtre répondant aux normes EN 779 ( G2, G3, G4, M5, M6, F7, F8, F9…)
+- Mise en propreté partielle et/ou complète des réseaux aérauliques (extraction / reprise /soufflage)
+- Désinfection des conduits aérauliques (extraction / reprise /soufflage)
+- Mise à gris et mise a blanc des ZAC (zone a atmosphère contrôlé)
+- Contrôles du taux d’empoussièrement en gaines (rapport photos)
+ 
+Autres interventions en milieux hospitaliers
+- Mise en propreté des systèmes d’extraction de buées grasses en cuisines (nettoyage des hottes, filtres, conduits et motorisations)
+- Fourniture et pose de moteur et filtres d’extraction pour hotte de cuisine
+- Mise en propreté et désinfection des évaporateurs situés en chambres froides
+- Mise en propreté et désinfection des gaines textiles
+- Mise en propreté et désinfection des aérothermes  
+ 
+## Agroalimentaire
+ 
+- Mise en propreté et désinfection des évaporateurs (frigorifères)
+- Mise en propreté désinfection des CTA ( Centrale de traitement d’air )
+- Mise en propreté désinfection des conduits aérauliques CTA
+- Mise en propreté désinfection des TAR ( Tour Aéroréfrigérantes)
+- Mise en propreté désinfection de tous types de réseaux acheminent de l’air extrait ou soufflé
+ 
+- Mise en propreté des systèmes d’extraction de buées grasses en cuisines (nettoyage des hottes, filtres, conduits et motorisations)
+- Mise en propreté désinfection des réseaux aérauliques (écoulement de l'air)
+*VMC
+* Simple flux
+* Double Flux
+- Fourniture et pose de filtres en fonctions de vos installations  
+ 
+## Industrie
+Mise en propreté et désinfection des toutes vos installations acheminent de l’air extrait où soufflé
+Nettoyage des conduits et motorisations
+- Réseaux de captation a la source
+- Conduit de dépoussiéreurs
+- Conduits d’extraction et de soufflage en zone de productions 
+- VMC Bureaux, communs, sanitaires…
+- Réseaux simple flux / doubles fluxs
+- Aérothermes
+- Gaines textiles

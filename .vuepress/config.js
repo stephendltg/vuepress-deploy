@@ -42,8 +42,8 @@ module.exports = {
                 link: '/docs/',
             },
             {
-                text: 'NetlifyCMS Config Help',
-                link: '/docs/netlifycms-configuration.html',
+                text: 'Contact',
+                link: '/docs/contact.html',
             }
         ]
     }
