@@ -10,6 +10,16 @@
 </template>
 
 <script>
+/*
+For more information, see [Him & Her](https://himandher.me)
+
+{{$page.title}}
+
+<div class="highlighted">
+    <TextMagic/>
+</div>
+<img :src="$withBase('/logo.png')" alt="foo">
+*/
 export default {
   name: "TextMagic",
   data() {

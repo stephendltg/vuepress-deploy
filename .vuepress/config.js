@@ -3,11 +3,11 @@ module.exports = {
         '@vuepress/google-analytics',
         { ga: 'UA-12345678-9' }
     ],
-    title: "ESA",
+    title: "ESA GRAND-OUEST",
     locales: {
         '/': {
             lang: 'fr-FR',
-            title: 'ESA',
+            title: 'ESA GRAND-OUEST',
             description: 'Entretien des systèmes aérauliques. Mise en propreté et désinfection des installation acheminent de l’air.'
         }
     },
@@ -15,13 +15,13 @@ module.exports = {
         ['link', { rel: 'icon', href: `/logo.png` }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['link', { rel: 'canonical', href: 'https://esa-grandouest.netlify.com' }],
-        ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+        ['meta', { name: 'theme-color', content: '#ffffff' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'white' }],
         ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
-        ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
+        ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#ffffff' }],
         ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
-        ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+        ['meta', { name: 'msapplication-TileColor', content: '#2b5797' }]
     ],
     plugins: ['@vuepress/pwa', {
         serviceWorker: true,
@@ -43,6 +43,10 @@ module.exports = {
             {
                 text: 'Contact',
                 link: '/docs/contact.html',
+            },
+            {
+                text: 'Mentions légales',
+                link: '/docs/mentions-legales.html'
             }
         ]
     }
