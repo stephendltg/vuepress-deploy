@@ -33,9 +33,11 @@ features:
   details: Contrôle des conduits aéraulique. Contrôle des débits dans les locaux spécifiques et non spécifique selon réglementation en vigueur. Contrôle du taux d'empoussièrement.
 - title: Mise en propreté / Désinfection des installations en milieu basse température
   details: Mise en propreté et désinfection des évaporateurs, condenseurs, tours aéroréfrigérantes et des gaines textiles.
-footer: SARL ESAGO | 8 rue de abbé COTTEUX 44110 LOUISFERT | Copyright © 2019-present Him&Her
+footer: SARL ESAGO | 8 rue de abbé COTTEUX 44110 LOUISFERT | Copyright © 2019 - present Him&Her
 
 ---
+
+<img :src="$withBase('/agroalimentaire.jpeg')" alt="agroalimentaire">
 
 <div class="contact">
 

@@ -3,10 +3,8 @@ sidebar: auto
 title: Nos prestations
 pageClass: prestations
 meta:
-  - name: "og:description"
-    content: Opengraph description
   - name: description
-    content: Replace default description in config.js
+    content: Détails des préstations de la société ESA grand-ouest.
 ---
 
 
