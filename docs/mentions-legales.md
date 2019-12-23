@@ -1,6 +1,7 @@
 ---
 title: Mentions légales
 ---
+
 # Mentions légales
 
 ## Société
