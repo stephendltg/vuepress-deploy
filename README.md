@@ -11,18 +11,18 @@ sitemap:
   exclude: false
   changefreq: hourly
 heroImage: /hero.png
-heroText: ESA
-tagline: Entretien des Systèmes Aérolique
+heroText: Entretien des Systèmes Aérauliques
+tagline: Choisissez l´air de vous respirez.
 pageClass: front
-actionText: Nos Services →
+actionText: Nos Prestations →
 actionLink: /docs/
 features:
-- title: One-click Deploy
-  details: Use the ”Deploy to Netlify“ button below to create a new VuePress installation with one simple click. Get my wonderful VuePress theme for free.
-- title: Github
-  details: You need a Github and a Netlify account. Otherwise the Deploy Button doesn't work.
-- title: Netlify
-  details: The “Deploy to Netlify” button helps users deploy new sites from templates with one single click on Netlify.
+- title: Mise en propreté / Désinfection aérauliques
+  details: Mise en propreté et désinfection des climatisations, VMC, reprises, soufflages, aérothermes, CTA, gaine textiles.
+- title: Audit des réseaux aérauliques
+  details: Contrôle des conduits aéraulique. Contrôle des débits dans les locaux spécifiques et non spécifique selon réglementation en vigueur. Contrôle du taux d'empoussièrement.
+- title: Mise en propreté / Désinfection des installations en milieu basse température
+  details: Mise en propreté et désinfection des évaporateurs, condenseurs, tours aéroréfrigérantes et des gaines textiles.
 footer: ESA Grand Ouest | Copyright © 2019-present Him and Her
 
 ---

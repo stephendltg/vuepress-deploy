@@ -8,7 +8,7 @@ module.exports = {
         '/': {
             lang: 'fr-FR',
             title: 'ESA',
-            description: 'Entretien des systèmes aéroloqiue'
+            description: 'Entretien des systèmes aérauliques.'
         }
     },
     head: [
@@ -38,7 +38,7 @@ module.exports = {
         logo: '/logo.png',
         smoothScroll: true,
         nav: [{
-                text: 'Start',
+                text: 'Nos préstations',
                 link: '/docs/',
             },
             {
