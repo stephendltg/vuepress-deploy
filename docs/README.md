@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 title: Nos prestations
-pageClass: prestation
+pageClass: prestations
 meta:
   - name: "og:description"
     content: Opengraph description

@@ -1,3 +1,77 @@
+body{
+    font-family: 'Roboto';
+}
+
+h1, h2{
+    font-family: 'Oswald';
+}
+
+h1 {
+    font-variant: small-caps;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+
+/* Hero */
+.hero {
+    /*height: 100vh;*/
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("/front.jpg");
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 3rem;
+}
+
+#main-title, .description, .contact{
+    background-color: #272D47;
+    margin: 0;
+    padding: 4rem;
+    color: white !important;
+}
+
+.contact {
+    background-color: #272D47;
+    margin: 0;
+    padding: 2rem;
+    color: white !important;
+}
+
+.contact a {
+    color: white;
+}
+.contact strong {
+    font-size: 1.8em;
+    font-weight: lighter;
+}
+
+#main-title{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 5rem !important;
+}
+
+
+/* Tagline */
+.description {
+  min-height: 2em;
+  margin: 0 !important;
+  max-width: none !important;
+  width: auto !important;
+  font-weight: bold;
+  font-size: 2.4em !important;
+}
+
+.description::before {
+  content: "\201C";
+  font-family: georgia, serif;
+  font-size: 2em;
+  height: .4em;
+  // line-height: 0.6;
+}
+
 /*
 .front {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url("/front.jpg");

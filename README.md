@@ -22,7 +22,7 @@ sitemap:
   changefreq: hourly
 heroImage: /hero.png
 heroText: Entretien des Systèmes Aérauliques
-tagline: Choisissez l´air de vous respirez.
+tagline: Choisissez l´air que vous respirez.
 pageClass: front
 actionText: Nos Prestations →
 actionLink: /docs/
@@ -37,9 +37,14 @@ footer: SARL ESAGO | 8 rue de abbé COTTEUX 44110 LOUISFERT | Copyright © 2019-
 
 ---
 
-### CONTACT
+<div class="contact">
+
+**- SYLVAIN DELETANG**
+
 [esa.grandouest@gmail.com](mailto:esa.grandouest@gmail.com?subject=[esa-grandouest]%20Contact) |
-<a href="tel:+330769695941" title="Téléphone">[07 69 69 59 41]</a>
+<a href="tel:+330769695941" title="Téléphone">07 69 69 59 41</a>
+
+</div>
 
 
 
