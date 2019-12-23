@@ -3,10 +3,20 @@ home: true
 navbar: false
 sidebar: false
 meta:
+  - name: "og:type"
+    content: siteWeb
+  - name: "og:title"
+    content: "ESA Grand Ouest"
   - name: "og:description"
-    content: Opengraph description
+    content: "Entretien des Systèmes Aérolique."
+  - name: "image"
+    content: 
+  - name: "url"
+    content: https://esa-grandouest.nelify.com
+  - name: "site_name"
+    content: ESA
   - name: description
-    content: Replace default description in config.js
+    content: Entretien des Systèmes Aérolique.
 sitemap:
   exclude: false
   changefreq: hourly
