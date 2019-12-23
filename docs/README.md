@@ -8,7 +8,7 @@ meta:
     content: Replace default description in config.js
 ---
 
-# Nos préstations
+# Nos prestations
 
 ## Restauration hôtellerie
 - Mise en propreté des systèmes d’extraction de buées grasses en cuisines (nettoyage des hottes, filtres, conduits et motorisations)

@@ -30,4 +30,13 @@ Select GitHub and enter the Client ID and Client Secret, then save.
 
 Now you can loggin to your NetlifyCMS with '/admin' after the URL of your site.
 
+For more information, see [Him & Her](https://himandher.me)
+
+{{$page.title}}
+
+<div class="highlighted">
+    <TextMagic/>
+</div>
+<img :src="$withBase('/logo.png')" alt="foo">
+
 ## Bedienung des CMS

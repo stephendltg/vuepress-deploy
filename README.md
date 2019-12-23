@@ -28,17 +28,6 @@ footer: SARL ESA Grand Ouest | 8 rue de abbé COTTEUX 44110 LOUISFERT | Copyrigh
 ---
 
 
-## INTERVETION GRAND OUEST
-
-### DEVIS GRATUIT
 
 
 
-For more information, see [Him & Her](https://himandher.me)
-
-{{$page.title}}
-
-<div class="highlighted">
-    <TextMagic/>
-</div>
-<img :src="$withBase('/logo.png')" alt="foo">
