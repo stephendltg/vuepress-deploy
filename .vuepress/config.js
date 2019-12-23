@@ -8,7 +8,7 @@ module.exports = {
         '/': {
             lang: 'fr-FR',
             title: 'ESA',
-            description: 'Entretien des systèmes aérauliques.'
+            description: 'Entretien des systèmes aérauliques. Mise en propreté et désinfection des installation acheminent de l’air.'
         }
     },
     head: [
@@ -34,11 +34,10 @@ module.exports = {
     },
     themeConfig: {
         docsDir: 'docs',
-        repo: 'stephendltg/vuepress-deploy',
         logo: '/logo.png',
         smoothScroll: true,
         nav: [{
-                text: 'Nos préstations',
+                text: 'Nos prestations',
                 link: '/docs/',
             },
             {

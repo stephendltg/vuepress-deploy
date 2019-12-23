@@ -23,14 +23,15 @@ features:
   details: Contrôle des conduits aéraulique. Contrôle des débits dans les locaux spécifiques et non spécifique selon réglementation en vigueur. Contrôle du taux d'empoussièrement.
 - title: Mise en propreté / Désinfection des installations en milieu basse température
   details: Mise en propreté et désinfection des évaporateurs, condenseurs, tours aéroréfrigérantes et des gaines textiles.
-footer: ESA Grand Ouest | Copyright © 2019-present Him and Her
+footer: SARL ESA Grand Ouest | 8 rue de abbé COTTEUX 44110 LOUISFERT | Copyright © 2019-present Him and Her
 
 ---
 
 
-## One-click Deploy
+## INTERVETION GRAND OUEST
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/stephendltg/vuepress-deploy)
+### DEVIS GRATUIT
+
 
 
 For more information, see [Him & Her](https://himandher.me)

@@ -1,12 +1,11 @@
 ---
 sidebar: auto
-title: Nos préstations
+title: Nos prestations
 meta:
   - name: "og:description"
     content: Opengraph description
   - name: description
     content: Replace default description in config.js
-footer: ESA Grand Ouest | Copyright © 2019-present Him and Her
 ---
 
 # Nos préstations
