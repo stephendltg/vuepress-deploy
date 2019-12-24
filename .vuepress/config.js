@@ -23,7 +23,7 @@ module.exports = {
     ],
     plugins: [
         [
-        'sitemap': { hostname: 'http://esa-grandouest.netlify.com'}
+        'sitemap', { hostname: 'http://esa-grandouest.netlify.com'}
         ],
         [
           '@vuepress/google-analytics',
