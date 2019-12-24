@@ -10,7 +10,7 @@ meta:
 
 ## Mentions légales
 
-<img :src="$withBase('/mentions.jpg')"  alt="restaurant/hotellerie">
+<img :src="$withBase('/mentions.jpg')"  alt="mentions legales">
 
 Cette page contient l’ensemble des informations légales de la société ESA Grand Ouest. 
 
@@ -43,7 +43,7 @@ Téléphone: <a href="tel:+330769695941" title="Téléphone">07 69 69 59 41</a>
 
 La présentation et chacun des éléments, y compris les marques, logos et noms de domaine, apparaissant sur le site www.esa-grandouest.fr, sont protégés par les lois en vigueur sur la propriété intellectuelle, et appartiennent à Sylvain Deletang ou font l’objet d’une autorisation d’utilisation.
 
-Aucun élément composant le Site (textes des articles, images, logos, code html, …) ne peut être copié, reproduit, modifié, réédité, chargé, dénaturé, transmis ou distribué de quelque manière que ce soit, sous quelque support que ce soit, de façon partielle ou intégrale, sans l’autorisation écrite et préalable de Daniel Roch et sous réserve du respect des droits de propriété intellectuelle et de tout autre droit de propriété dont il est fait mention. Seule la copie à usage privé est autorisée pour votre usage personnel, privé et non commercial, sur votre ordinateur personnel.
+Aucun élément composant le Site (textes des articles, images, logos, code html, …) ne peut être copié, reproduit, modifié, réédité, chargé, dénaturé, transmis ou distribué de quelque manière que ce soit, sous quelque support que ce soit, de façon partielle ou intégrale, sans l’autorisation écrite et préalable de Sylvain Deletang et sous réserve du respect des droits de propriété intellectuelle et de tout autre droit de propriété dont il est fait mention. Seule la copie à usage privé est autorisée pour votre usage personnel, privé et non commercial, sur votre ordinateur personnel.
 
 Sylvain Deletang se réserve le droit de poursuivre tout acte de contrefaçon de ses droits de propriété intellectuelle.
 
