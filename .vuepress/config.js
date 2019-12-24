@@ -21,10 +21,10 @@ module.exports = {
         ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300&display=swap' }],
         ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oswald:700&display=swap' }]
     ],
-    plugins: {
-        'sitemap': {
-          hostname: 'http://esa-grandouest.netlify.com'
-        },
+    plugins: [
+        [
+        'sitemap': { hostname: 'http://esa-grandouest.netlify.com'}
+        ],
         [
           '@vuepress/google-analytics',
           { ga: 'UA-12345678-9' }
@@ -33,7 +33,7 @@ module.exports = {
           serviceWorker: true,
           updatePopup: true
         }]
-    },
+    ],
     themeConfig: {
         docsDir: 'docs',
         logo: '/logo.png',
