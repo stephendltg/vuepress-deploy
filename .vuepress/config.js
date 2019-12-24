@@ -1,8 +1,4 @@
 module.exports = {
-    plugins: [
-        '@vuepress/google-analytics',
-        { ga: 'UA-12345678-9' }
-    ],
     title: "ESA GRAND-OUEST",
     locales: {
         '/': {
@@ -25,14 +21,18 @@ module.exports = {
         ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300&display=swap' }],
         ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oswald:700&display=swap' }]
     ],
-    plugins: ['@vuepress/pwa', {
-        serviceWorker: true,
-        updatePopup: true
-    }],
     plugins: {
         'sitemap': {
           hostname: 'http://esa-grandouest.netlify.com'
         },
+        [
+          '@vuepress/google-analytics',
+          { ga: 'UA-12345678-9' }
+        ],
+        ['@vuepress/pwa', {
+          serviceWorker: true,
+          updatePopup: true
+        }]
     },
     themeConfig: {
         docsDir: 'docs',
