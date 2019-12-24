@@ -8,13 +8,13 @@ meta:
   - name: "og:title"
     content: "ESA Grand Ouest"
   - name: "og:description"
-    content: "Entretien des Systèmes Aérolique."
+    content: "Entretien des Systèmes Aérauliques."
   - name: "image"
     content: 
   - name: "url"
     content: https://esa-grandouest.nelify.com
   - name: "site_name"
-    content: ESA
+    content: ESAGO
   - name: description
     content: Entretien des Systèmes Aérolique.
 sitemap:
