@@ -1,5 +1,5 @@
 <template>
-  <h6>Choisissez l´air que vous respirez.</h6>
+  <h6>Choisissez l´air que vous respirez</h6>
 </template>
 
 <script>
@@ -37,8 +37,8 @@ export default {
         for(var i=0; i<nodes.length; i++){
           if(scrollUp == true && nodes[i].opacity > 0)
             nodes[i].opacity -= 1/(1+i*1);
-          else if(scrollUp == false && nodes[i].opacity < 1)
-            nodes[i].opacity += 1/(10+i*1);
+          //else if(scrollUp == false && nodes[i].opacity < 1)
+          //  nodes[i].opacity += 1/(1+i*1);
   
           nodes[i].style.opacity = nodes[i].opacity;
         }
@@ -80,7 +80,7 @@ export default {
 
 <style>
 .home{
-  margin-top: 1000px !important;
+  margin-top: 1500px !important;
 }
 
 @keyframes fadeIn {
