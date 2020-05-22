@@ -73,44 +73,29 @@ export default {
 	
 	window.addEventListener('scroll', this.handleScroll);
 	
-	/*
-	window.addEventListener("scroll",function(){
-		let scrollUp = (window.lastScrollY < window.scrollY ? true : false);
-		var nodes = document.querySelectorAll("h6 > *");
-		if(window.scrollY < window.screen.height){
-			for(var i=0; i<nodes.length; i++){
-				var speed = window.scrollY/nodes[i].speed;
-				if(scrollUp == true){
-					nodes[i].y -= speed;
-					if(nodes[i].y <= 0)
-						nodes[i].y = 0;
-				}else{
-					nodes[i].y += speed;
-					if(nodes[i].y > nodes[i].originY)
-						nodes[i].y = nodes[i].originY;
-				}
-				nodes[i].style.top = nodes[i].y+"px";
-			}
-		}else{
-
-			for(var i=0; i<nodes.length; i++){
-				if(scrollUp == true && nodes[i].opacity > 0)
-					nodes[i].opacity -= 1/(1+i*1);
-				else if(scrollUp == false && nodes[i].opacity < 1)
-					nodes[i].opacity += 1/(1+i*1);
-
-				nodes[i].style.opacity = nodes[i].opacity;
-			}
-		}
-		window.lastScrollY = window.scrollY;
-	});
-  
-  */
   
   }
 };
 </script>
 
 <style scoped>
+.home{
+  margin-top: 1000px !important;
+}
+.front h6{
+	position: fixed;
+  top: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 4em;
+}
+
+.front h6 > *{
+  color: rgb(160,185,198);
+	position: relative;
+	display: inline-block;
+	top: 0;
+}
+
 
 </style>
