@@ -37,8 +37,8 @@ export default {
         for(var i=0; i<nodes.length; i++){
           if(scrollUp == true && nodes[i].opacity > 0)
             nodes[i].opacity -= 1/(1+i*1);
-          //else if(scrollUp == false && nodes[i].opacity < 1)
-          //  nodes[i].opacity += 1/(1+i*1);
+          else if(scrollUp == false && nodes[i].opacity < 1)
+            nodes[i].opacity += 1/(1+i*1);
   
           nodes[i].style.opacity = nodes[i].opacity;
         }
@@ -65,7 +65,7 @@ export default {
       letter.speed = Math.floor(Math.random()*10)+2;
       letter.y = Math.floor(Math.random()*400)+2;
       letter.originY = letter.y;
-      letter.opacity = 0.5;
+      letter.opacity = 1;
       letter.innerText = txt[i];
       letter.style.top = letter.y+"px";
       parent.appendChild(letter);
@@ -82,6 +82,26 @@ export default {
 .home{
   margin-top: 1000px !important;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.front h6 {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  // animation-iteration-count: infinite;
+  animation-name: fadeIn;
+  // animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+}
+
 .front h6{
 	position: fixed;
   top: 0;
