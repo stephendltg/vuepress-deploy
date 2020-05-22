@@ -16,6 +16,9 @@ export default {
   computed: {
 
   },
+  beforeDestroy: function () {
+    window.removeEventListener("scroll");
+  },
   async mounted() {
     console.log('test')
     window.lastScrollY = 0;
