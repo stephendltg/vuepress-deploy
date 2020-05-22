@@ -13,12 +13,47 @@ export default {
     return {
     };
   },
+  methods: {
+    handleScroll(event) {
+      
+      let scrollUp = (window.lastScrollY < window.scrollY ? true : false);
+      var nodes = document.querySelectorAll("h6 > *");
+      if(window.scrollY < window.screen.height){
+        for(var i=0; i<nodes.length; i++){
+          var speed = /*nodes[i].speed;*/window.scrollY/nodes[i].speed;
+          if(scrollUp == true){
+            nodes[i].y -= speed;
+            if(nodes[i].y <= 0)
+              nodes[i].y = 0;
+          }else{
+            nodes[i].y += speed;
+            if(nodes[i].y > nodes[i].originY)
+              nodes[i].y = nodes[i].originY;
+          }
+          nodes[i].style.top = nodes[i].y+"px";
+        }
+      }else{
+  
+        for(var i=0; i<nodes.length; i++){
+          if(scrollUp == true && nodes[i].opacity > 0)
+            nodes[i].opacity -= 1/(1+i*1);
+          else if(scrollUp == false && nodes[i].opacity < 1)
+            nodes[i].opacity += 1/(1+i*1);
+  
+          nodes[i].style.opacity = nodes[i].opacity;
+        }
+      }
+      window.lastScrollY = window.scrollY;
+      
+      
+    }
+  },
   computed: {
 
   },
-  /*beforeDestroy: function () {
-    window.removeEventListener("scroll");
-  },*/
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
   async mounted() {
     console.log('test')
     window.lastScrollY = 0;
@@ -34,14 +69,17 @@ export default {
       letter.innerText = txt[i];
       letter.style.top = letter.y+"px";
       parent.appendChild(letter);
-	}
+	  }
 	
+	window.addEventListener('scroll', this.handleScroll);
+	
+	/*
 	window.addEventListener("scroll",function(){
 		let scrollUp = (window.lastScrollY < window.scrollY ? true : false);
 		var nodes = document.querySelectorAll("h6 > *");
 		if(window.scrollY < window.screen.height){
 			for(var i=0; i<nodes.length; i++){
-				var speed = /*nodes[i].speed;*/window.scrollY/nodes[i].speed;
+				var speed = window.scrollY/nodes[i].speed;
 				if(scrollUp == true){
 					nodes[i].y -= speed;
 					if(nodes[i].y <= 0)
@@ -66,7 +104,9 @@ export default {
 		}
 		window.lastScrollY = window.scrollY;
 	});
-
+  
+  */
+  
   }
 };
 </script>
