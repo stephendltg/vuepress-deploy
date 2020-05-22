@@ -31,7 +31,7 @@ footer: SARL ESAGO | 8 rue de abbé COTTEUX 44110 LOUISFERT | Copyright © 2019 
 
 ---
 
-<h6>Choisissez l´air que vous respirez.</h6>
+<TextMagic/>
 
 <img :src="$withBase('/agroalimentaire.jpeg')" alt="Esa Grand Ouest - Industrie">
 
