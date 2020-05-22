@@ -16,7 +16,7 @@ export default {
   computed: {
 
   },
-  mounted() {
+  async mounted() {
     console.log('test')
     window.lastScrollY = 0;
     var parent = document.querySelector("h6");
