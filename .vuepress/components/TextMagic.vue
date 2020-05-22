@@ -80,7 +80,7 @@ export default {
 
 <style>
 .home{
-  margin-top: 1500px !important;
+  margin-top: 1100px !important;
 }
 
 @keyframes fadeIn {
