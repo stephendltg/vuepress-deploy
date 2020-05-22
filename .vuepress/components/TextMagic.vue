@@ -96,9 +96,7 @@ export default {
   animation-duration: 3s;
   animation-fill-mode: both;
   animation-delay: 1s;
-  // animation-iteration-count: infinite;
   animation-name: fadeIn;
-  // animation-duration: 1.3s;
   animation-timing-function: ease-in-out;
 }
 
