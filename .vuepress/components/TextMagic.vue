@@ -105,9 +105,7 @@ export default {
   top: 0;
 	text-align: center;
 	width: 100%;
-	with: 100vw;
 	font-size: 4em;
-	padding: 10px;
 }
 
 .front h6 > *{
