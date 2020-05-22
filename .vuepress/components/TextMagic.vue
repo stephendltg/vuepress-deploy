@@ -4,6 +4,35 @@
 
 <script>
 
+	
+
+
+export default {
+  name: "TextMagic",
+  data() {
+    return {
+    };
+  },
+  computed: {
+
+  },
+  mounted() {
+    console.log('test')
+    window.lastScrollY = 0;
+    var parent = document.querySelector("h6");
+    var txt = parent.innerText;
+    parent.innerText = "";
+    for(var i=0; i<txt.length; i++){
+      var letter = document.createElement("span");
+      letter.speed = Math.floor(Math.random()*10)+2;
+      letter.y = Math.floor(Math.random()*400)+2;
+      letter.originY = letter.y;
+      letter.opacity = 1;
+      letter.innerText = txt[i];
+      letter.style.top = letter.y+"px";
+      parent.appendChild(letter);
+	}
+	
 	window.addEventListener("scroll",function(){
 		let scrollUp = (window.lastScrollY < window.scrollY ? true : false);
 		var nodes = document.querySelectorAll("h6 > *");
@@ -35,41 +64,6 @@
 		window.lastScrollY = window.scrollY;
 	});
 
-/*
-For more information, see [Him & Her](https://himandher.me)
-
-{{$page.title}}
-
-<div class="highlighted">
-    <TextMagic/>
-</div>
-<img :src="$withBase('/logo.png')" alt="foo">
-*/
-export default {
-  name: "TextMagic",
-  data() {
-    return {
-    };
-  },
-  computed: {
-
-  },
-  async mounted() {
-    console.log('test')
-    window.lastScrollY = 0;
-    var parent = document.querySelector("h6");
-    var txt = parent.innerText;
-    parent.innerText = "";
-    for(var i=0; i<txt.length; i++){
-      var letter = document.createElement("span");
-      letter.speed = Math.floor(Math.random()*10)+2;
-      letter.y = Math.floor(Math.random()*400)+2;
-      letter.originY = letter.y;
-      letter.opacity = 1;
-      letter.innerText = txt[i];
-      letter.style.top = letter.y+"px";
-      parent.appendChild(letter);
-    }
   }
 };
 </script>
