@@ -1,6 +1,6 @@
 ---
 home: true
-navbar: false
+navbar: true
 sidebar: false
 meta:
   - name: "og:type"
@@ -10,7 +10,7 @@ meta:
   - name: "og:description"
     content: "Entretien des Systèmes Aérauliques."
   - name: "image"
-    content: 
+    content: "https://esa-grandouest.nelify.com/agroalimentaire.jpeg"
   - name: "url"
     content: https://esa-grandouest.nelify.com
   - name: "site_name"
@@ -22,22 +22,18 @@ sitemap:
   changefreq: hourly
 heroImage: /hero.png
 heroText: Entretien des Systèmes Aérauliques
-tagline: Choisissez l´air que vous respirez.
+tagline: Mise en propreté et désinfection liée à la qualité de l'air
 pageClass: front
 actionText: Nos Prestations →
-actionLink: /docs/
-features:
-- title: Mise en propreté / Désinfection aérauliques
-  details: Mise en propreté et désinfection des climatisations, VMC, reprises, soufflages, aérothermes, CTA, gaine textiles.
-- title: Audit des réseaux aérauliques
-  details: Contrôle des conduits aéraulique. Contrôle des débits dans les locaux spécifiques et non spécifique selon réglementation en vigueur. Contrôle du taux d'empoussièrement.
-- title: Mise en propreté / Désinfection des installations en milieu basse température
-  details: Mise en propreté et désinfection des évaporateurs, condenseurs, tours aéroréfrigérantes et des gaines textiles.
+actionLink: /pages/
+
 footer: SARL ESAGO | 8 rue de abbé COTTEUX 44110 LOUISFERT | Copyright © 2019 - present Him&Her
 
 ---
 
-<img :src="$withBase('/agroalimentaire.jpeg')" alt="agroalimentaire">
+<h6>Choisissez l´air que vous respirez.</h6>
+
+<img :src="$withBase('/agroalimentaire.jpeg')" alt="Esa Grand Ouest - Industrie">
 
 <div class="contact">
 
@@ -47,8 +43,3 @@ footer: SARL ESAGO | 8 rue de abbé COTTEUX 44110 LOUISFERT | Copyright © 2019 
 <a href="tel:+330769695941" title="Téléphone">07 69 69 59 41</a>
 
 </div>
-
-
-
-
-

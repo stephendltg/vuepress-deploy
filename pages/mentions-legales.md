@@ -5,6 +5,8 @@ pageClass: mentions-legales
 meta:
   - name: description
     content: Liste complète des mentions légales du site www.esa-grandouest.fr et de la SARL ESAGO.
+next: false
+prev: ./
 ---
 
 

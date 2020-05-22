@@ -1,4 +1,5 @@
 module.exports = {
+    // extraWatchFiles: ["**/*.md", "**/*.vue"],
     title: "ESA GRAND-OUEST",
     locales: {
         '/': {
@@ -19,7 +20,8 @@ module.exports = {
         ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
         ['meta', { name: 'msapplication-TileColor', content: '#2b5797' }],
         ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300&display=swap' }],
-        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oswald:700&display=swap' }]
+        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oswald:700&display=swap' }],
+        ['script', { type:'text/javascript' , src: '/code.js' }]
     ],
     plugins: [
         [
@@ -32,20 +34,24 @@ module.exports = {
         ['@vuepress/pwa', {
           serviceWorker: true,
           updatePopup: true
-        }]
+        }
+        ],
+        ['@vuepress/back-to-top']
     ],
     themeConfig: {
-        docsDir: 'docs',
+        //host: 'localhost',
+        docsDir: 'pages',
         logo: '/logo.png',
         smoothScroll: true,
         nav: [{
                 text: 'Nos prestations',
-                link: '/docs/'
+                link: '/pages/'
             },
             {
                 text: 'Mentions légales',
-                link: '/docs/mentions-legales.html'
+                link: '/pages/mentions-legales.html'
             }
-        ]
+        ],
+        searchPlaceholder: 'Rechercher'
     }
 }

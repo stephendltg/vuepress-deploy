@@ -18,7 +18,7 @@
   }
 }
 
-.hero img {
+.hero img , .front h6 {
   animation-duration: 2s;
   animation-fill-mode: both;
   // animation-delay: 1s;
@@ -65,6 +65,41 @@ h3 {
     opacity: 0.9;
 }
 
+hr {
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 3px solid #272D47;
+}
+
+
+/*
+html,body{
+    min-height: 800vh;
+}*/
+
+.home{
+    margin-top: 1000px !important;
+}
+.front h6{
+	position: fixed;
+    top: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 4em;
+}
+
+.front h6 > *{
+    color: rgb(160,185,198);
+	position: relative;
+	display: inline-block;
+	top: 0;
+}
+
+/*
+.theme-default-content:not(.custom){
+    max-width : 960px !important;
+}*/
 
 .prestations h2, .mentions-legales h2{
     border-bottom: none !important;
@@ -127,18 +162,17 @@ h3 {
   width: auto !important;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   text-rendering: optimizeLegibility;
-  letter-spacing: .1em;
+  /*letter-spacing: .1em;
   font-weight: bold;
-  font-size: 2em !important;
+  font-size: 2em !important;*/
 }
 
-.description::before {
+/* .description::before {
   content: "\201C";
   font-family: georgia, serif;
   font-size: 1.6em;
   height: .4em;
-  // line-height: 0.6;
-}
+} */
 
 .features {
     margin-bottom: 5rem !important;
@@ -165,6 +199,8 @@ h3 {
     margin-left: 1rem;
 }
 
+/*
 .sidebar{
-    // background-color: rgba(169,186,199,0.2);
+    background-color: rgba(169,186,199,0.2);
 }
+*/
