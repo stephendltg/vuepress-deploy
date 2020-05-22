@@ -65,7 +65,7 @@ export default {
       letter.speed = Math.floor(Math.random()*10)+2;
       letter.y = Math.floor(Math.random()*400)+2;
       letter.originY = letter.y;
-      letter.opacity = 1;
+      letter.opacity = 0.5;
       letter.innerText = txt[i];
       letter.style.top = letter.y+"px";
       parent.appendChild(letter);
