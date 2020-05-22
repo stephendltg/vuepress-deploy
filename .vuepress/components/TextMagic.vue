@@ -38,7 +38,7 @@ export default {
           if(scrollUp == true && nodes[i].opacity > 0)
             nodes[i].opacity -= 1/(1+i*1);
           else if(scrollUp == false && nodes[i].opacity < 1)
-            nodes[i].opacity += 1/(1+i*1);
+            nodes[i].opacity += 1/(1+i*10);
   
           nodes[i].style.opacity = nodes[i].opacity;
         }
