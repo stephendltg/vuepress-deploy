@@ -18,20 +18,25 @@ meta:
 title: Nos prestations
 pageClass: prestations
 tags: 
-  - Préstations
-  - Industrie
-  - Restauration
-  - Collectivité
-  - Grande Distribution
-  - Agroalimentaire
+  - prestations
+  - industrie
+  - restauration
+  - collectivité
+  - grande Distribution
+  - agroalimentaire
+  - hotel
+  - clinique
+  - hopital
+  - restaurant
 type: articles
 author: Sylvain Deletang
 next: ./mentions-legales
 prev: false
 ---
 
+## Secteurs
 
-## Restauration hôtellerie
+### Restauration hôtellerie
 
 > Afin de garantir au consomateur une sécurité et une qualité alimentaire maximales, le respect des règles sanitaires par le restaurateur et le commerçant est strictement réglementé et soumis à des contrôles fréquents.
 
@@ -56,7 +61,7 @@ prev: false
 
 
 
-## Collectivité / Tertiaire / Enseignement
+### Collectivité / Tertiaire / Enseignement
 
 > Les agents de collectivité / tertiaire / enseignement mettent en place au jours le jours les bonnes pratique d'hygiène et de sécurité afin d'éviter toutes contamination liée à la pollution intérieur.
 
@@ -77,7 +82,7 @@ prev: false
 | **Caisson d'extraction / centrale de traitement de l'air:** <br><br>- Contrôles du taux d'empoussièrement en gaines <br>- Contrôle des débits d'air des sytèmes de ventilation <br> - Mise en propreté des systèmes d’extraction de buées grasses en cuisines (nettoyage des hottes, filtres, conduits et motorisations) <br>- Fourniture et pose de turbine d'extraction hotte cuisine <br>- Mise en propreté et désinfection des évaporateurs situés en chambres froides <br>- Mise en propreté et désinfection des gaines textiles <br>- Mise en propreté désinfection des aérothermes <br>- Mise en propreté des conduits séchoirs/calandreuses en zone blanchisserie <br>- Fourniture et pose de filtres <br>- Fiche Rapport de traçabilité  |
 
  
-## Grande distribution
+### Grande distribution
 
 > Vous êtes l’un des derniers maillons de la chaîne avant la consommation.
 Vous assurez les Bonnes Pratique d’Hygiène, la sécurité alimentaire, et la traçabilité.
@@ -107,7 +112,7 @@ Vous assurez les Bonnes Pratique d’Hygiène, la sécurité alimentaire, et 
 | **Caisson d'extraction / centrale de traitement de l'air:** <br><br>- Mise en propreté désinfection des conduits d'air en zone commerciale<br>- Contrôles du taux d’empoussièrement en gaines<br>- Contrôle des débits d’air des systèmes de ventilation<br>- Mise en propreté désinfection des gaines textiles<br>- Mise en propreté désinfection des aérothermes<br>- Mise en propreté et désinfection des évaporateurs situés en chambres froides<br>- Fiche Rapport de traçabilité  |
 
 
-## Milieux hospitaliers/ laboratoire
+### Milieux hospitaliers/ laboratoire
 
 > En milieu hospitalier et laboratoires, les normes d’hygiène publique sont fondamentales. L’air, les surfaces et l’architecture même du lieu sont autant de paramètres à prendre en compte pour le respect des occupant, qu'ils soient patients ou salariés au sein de l'établissent.
 ESA Grand Ouest vous aide à améliorer la qualité de l'air.
@@ -131,7 +136,7 @@ ESA Grand Ouest vous aide à améliorer la qualité de l'air.
 | **Autres interventions en milieux hospitaliers:** <br><br>- Mise en propreté des systèmes d’extraction de buées grasses en cuisines (nettoyage des hottes, filtres, conduits et motorisations)<br>-  Mise en propreté et désinfection des évaporateurs situés en chambres froides <br>- Mise en propreté et désinfection des gaines textiles<br>- Mise en propreté des conduits séchoirs/calandreuses en zone blanchisserie |
 
 
-## Agroalimentaire
+### Agroalimentaire
 
 > On désigne par le terme **hygiène**, l'ensemble des mesures prises pour éviter que les aliments soient contaminés, que nous tombions malades ou que nous transmettions les germes pathogènes (responsable de maladies). Le secteur industriel de l’alimentation à une **responsabilité** importante pour la santé de la population. L’industrie alimentaires à déjà intégré l'ensemble des bonnes pratiques afin d'éviter toutes contaminations en interne.
 
@@ -158,7 +163,7 @@ ESA Grand Ouest vous aide à améliorer la qualité de l'air.
 
 
 
-## Industrie
+### Industrie
 
 > L'industrie, mets un point d'honneur sur la sécurité, l'environnement auprès des équipes et des installations par rapport aux réglementations et aux normes en vigueur.
 L’Objectif est, la protection, la réduction des impacts et des risques de l'activité industrielle sur les personnes, les biens et l'environnement.
