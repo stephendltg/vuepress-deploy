@@ -1,5 +1,5 @@
 <template>
-  <h6>Choisissez l´air que vous respirez</h6>
+  <h6>Choisissez&#x2000;l´air&#x2000;que&#x2000;vous&#x2000;respirez</h6>
 </template>
 
 <script>
@@ -30,15 +30,20 @@ export default {
             if(nodes[i].y > nodes[i].originY)
               nodes[i].y = nodes[i].originY;
           }
+          nodes[i].style.display = 'inline-block';
           nodes[i].style.top = nodes[i].y+"px";
         }
       }else{
   
         for(var i=0; i<nodes.length; i++){
-          if(scrollUp == true && nodes[i].opacity > 0)
+          if(scrollUp == true && nodes[i].opacity > 0){
             nodes[i].opacity -= 1/(1+i*1);
-          //else if(scrollUp == false && nodes[i].opacity < 1)
-          //  nodes[i].opacity += 1/(1+i*1);
+            if( nodes[i].opacity <= 0 ){
+              nodes[i].style.display = 'none';
+            }
+          }
+          else if(scrollUp == false && nodes[i].opacity < 1)
+            nodes[i].opacity += 1/(1+i*1);
   
           nodes[i].style.opacity = nodes[i].opacity;
         }
@@ -106,9 +111,11 @@ export default {
 	text-align: center;
 	width: 100%;
 	font-size: 4em;
+  left: 0;
 }
 
 .front h6 > *{
+  font-family: 'Oswald';
   color: rgb(160,185,198);
 	position: relative;
 	display: inline-block;

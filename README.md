@@ -33,7 +33,7 @@ footer: SARL ESAGO | 8 rue de abbé COTTEUX 44110 LOUISFERT | Copyright © 2019 
 
 <TextMagic/>
 
-<img :src="$withBase('/agroalimentaire.jpeg')" alt="Esa Grand Ouest - Industrie">
+<img :src="$withBase('/esa.jpg')" alt="Esa Grand Ouest - Industrie">
 
 <div class="contact">
 
@@ -43,3 +43,4 @@ footer: SARL ESAGO | 8 rue de abbé COTTEUX 44110 LOUISFERT | Copyright © 2019 
 <a href="tel:+330769695941" title="Téléphone">07 69 69 59 41</a>
 
 </div>
+
