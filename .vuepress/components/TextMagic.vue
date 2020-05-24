@@ -84,6 +84,9 @@ export default {
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
 .home{
   margin-top: 1100px !important;
 }
@@ -115,7 +118,7 @@ export default {
 }
 
 .front h6 > *{
-  font-family: 'Oswald';
+  font-family: 'Londrina Sketch', 'Oswald', cursive;
   color: rgb(160,185,198);
 	position: relative;
 	display: inline-block;
