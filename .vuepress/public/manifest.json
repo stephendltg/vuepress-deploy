@@ -12,7 +12,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "https://esa-grandouest.netlify.com",
+    "start_url": "https://esa-grandouest.netlify.app",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color": "#4527a0"
