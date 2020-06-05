@@ -118,7 +118,7 @@ export default {
 }
 
 .front h6 > *{
-  /*font-family: 'Londrina Sketch', 'Oswald', cursive;*/
+  font-family: 'Oswald', cursive;
   color: rgb(160,185,198);
 	position: relative;
 	display: inline-block;
