@@ -11,7 +11,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: `/logo.png` }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
-        ['link', { rel: 'canonical', href: 'https://esa-grandouest.netlify.app' }],
+        ['link', { rel: 'canonical', href: 'https://esa-grandouest.fr' }],
         ['meta', { name: 'theme-color', content: '#ffffff' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'white' }],
@@ -24,7 +24,7 @@ module.exports = {
     ],
     plugins: [
         [
-        'sitemap', { hostname: 'http://esa-grandouest.netlify.app'}
+        'sitemap', { hostname: 'https://esa-grandouest.fr'}
         ],
         [
           '@vuepress/google-analytics',

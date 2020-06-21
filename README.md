@@ -10,9 +10,9 @@ meta:
   - name: "og:description"
     content: "Entretien des Systèmes Aérauliques."
   - name: "image"
-    content: "https://esa-grandouest.nelify.com/agroalimentaire.jpeg"
+    content: "https://esa-grandouest.fr/agroalimentaire.jpeg"
   - name: "url"
-    content: https://esa-grandouest.nelify.com
+    content: "https://esa-grandouest.fr"
   - name: "site_name"
     content: ESAGO
   - name: description
