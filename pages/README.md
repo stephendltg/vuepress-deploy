@@ -63,7 +63,7 @@ prev: false
 | ------------------------------------------------------- |
 | Fourniture et pose de filtres |
 
-::: tip Traçabilité
+::: tip Document fourni
 Fiche Rapport de traçabilité
 :::
 
@@ -101,7 +101,7 @@ Fiche Rapport de traçabilité
 | Fourniture et pose de filtres |
 
 
-::: tip Traçabilité
+::: tip Document fourni
 Fiche Rapport de traçabilité
 :::
 
@@ -145,7 +145,7 @@ Vous assurez les Bonnes Pratiques d’Hygiène, la sécurité alimentaire, et
 | Mise en propreté et désinfection des évaporateurs situés en chambres froides 
 
 
-::: tip Traçabilité
+::: tip Document fourni
 Fiche Rapport de traçabilité
 :::
 
@@ -187,7 +187,7 @@ ESA Grand Ouest vous aide à améliorer la qualité de l'air.
 | Mise en propreté des conduits séchoirs/calandreuses en zone blanchisserie |
 
 
-::: tip Traçabilité
+::: tip Document fourni
 Fiche Rapport de traçabilité
 :::
 
@@ -227,7 +227,7 @@ Fiche Rapport de traçabilité
 | Mise en propreté des systèmes d’extraction de buées grasses en cuisines inter entreprise (nettoyage des hottes, filtres, conduits et motorisations) |
 
 
-::: tip Traçabilité
+::: tip Document fourni
 Fiche Rapport de traçabilité
 :::
 
@@ -268,7 +268,7 @@ L’Objectif est, la protection, la réduction des impacts et des risques de l'
 | Contrôle des débits d’air des systèmes de ventilation |
 
 
-::: tip Traçabilité
+::: tip Document fourni
 Fiche Rapport de traçabilité
 :::
 
