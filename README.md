@@ -27,7 +27,7 @@ pageClass: front
 actionText: Nos Prestations →
 actionLink: /pages/
 
-footer: SARL ESAGO | 8 rue de abbé cotteux 44110 LOUISFERT | Copyright © 2019 - present Him&Her
+footer: SARL ESAGO | 8 rue de abbé cotteux 44110 LOUISFERT | Copyright © 2020 - present Him&Her
 
 ---
 
